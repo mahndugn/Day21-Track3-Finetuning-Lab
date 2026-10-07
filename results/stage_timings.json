@@ -1,0 +1,26 @@
+{
+  "smoke": {
+    "seconds": 4.9,
+    "exit_code": 0
+  },
+  "nb1": {
+    "seconds": 24.7,
+    "exit_code": 0
+  },
+  "nb2": {
+    "seconds": 391.4,
+    "exit_code": 0
+  },
+  "nb3": {
+    "seconds": 459.0,
+    "exit_code": 0
+  },
+  "nb4": {
+    "seconds": 1260.0,
+    "exit_code": 0
+  },
+  "nb5": {
+    "seconds": 642.2,
+    "exit_code": 0
+  }
+}

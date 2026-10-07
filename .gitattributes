@@ -1,0 +1,4 @@
+# Keep corpus bytes consistent with data/checksums.json on Windows and Linux.
+data/*.jsonl text eol=lf
+# Preserve imported Colab evidence, including progress-bar whitespace.
+results/** -text -whitespace

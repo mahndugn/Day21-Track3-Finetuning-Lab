@@ -1,0 +1,17 @@
+{
+  "run_id": "20261007_160332_078654",
+  "commit": "d27c1c02ebe99f32f52f706be88b4c30fb1d7fca",
+  "repo": "https://github.com/VinUni-AI20k/Day21-Track3-Finetuning-Lab.git",
+  "tier": "T4",
+  "mask_mode": "assistant-only",
+  "epochs": 2,
+  "eval_limit": null,
+  "python": "3.13.15",
+  "nb6": false,
+  "gpu": {
+    "name": "Tesla T4",
+    "vram_gb": 14.56,
+    "torch": "2.11.0+cu130",
+    "cuda": "13.0"
+  }
+}

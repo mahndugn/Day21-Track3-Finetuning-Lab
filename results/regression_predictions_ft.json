@@ -1,0 +1,148 @@
+[
+  {
+    "i": 0,
+    "instruction": "Thủ đô của Việt Nam là thành phố nào?",
+    "keywords": [
+      "Hà Nội"
+    ],
+    "prediction": "{\"intent\": \"trivia\", \"confidence\": 0.95, \"answer\": \"Hà Nội\", \"context\": \"Hà Nội là thủ đô chính thức của Cộng hòa Xã hội Chủ nghĩa Việt Nam, đồng thời cũng là trung tâm chính trị, văn hóa và giáo dục lớn nhất của cả nước.\"}",
+    "score": 1.0
+  },
+  {
+    "i": 1,
+    "instruction": "Kể tên hai đại dương lớn nhất thế giới.",
+    "keywords": [
+      "Thái Bình Dương",
+      "Đại Tây Dương"
+    ],
+    "prediction": "{\"intent\": \"fact\", \"entities\": [{\"text\": \"Đại Tây Dương\", \"type\": \"đại dương\"}, {\"text\": \"Thái Bình Dương\", \"type\": \"đại dương\"}], \"answer\": \"Hai đại dương lớn nhất thế giới là Thái Bình Dương và Đại Tây Dương.\"}",
+    "score": 1.0
+  },
+  {
+    "i": 2,
+    "instruction": "1 km bằng bao nhiêu mét?",
+    "keywords": [
+      "1000"
+    ],
+    "prediction": "{\"prefix\": \"1 km\", \"suffix\": \"bằng 1000 mét.\", \"question\": \"1 km bằng bao nhiêu mét?\"}",
+    "score": 1.0
+  },
+  {
+    "i": 3,
+    "instruction": "Viết một câu chúc mừng sinh nhật bằng tiếng Việt.",
+    "keywords": [
+      "sinh nhật"
+    ],
+    "prediction": "{\"intent\": \"chuc_mung_sinh_nhat\", \"urgency\": \"trung_tinh\", \"tone\": \"trung_tinh\", \"product\": null, \"sentiment\": \"tich_cuc\", \"urgency\": \"trung_tinh\", \"product\": null, \"sentiment\": \"tich_cuc\"}",
+    "score": 0.0
+  },
+  {
+    "i": 4,
+    "instruction": "Dịch sang tiếng Anh: 'Tôi thích đọc sách'.",
+    "keywords": [
+      "read",
+      "book"
+    ],
+    "prediction": "\"I like reading books.\"",
+    "score": 1.0
+  },
+  {
+    "i": 5,
+    "instruction": "Sông nào dài nhất Việt Nam?",
+    "keywords": [
+      "Đồng Nai",
+      "Mê Kông",
+      "Cửu Long"
+    ],
+    "prediction": "{\"intent\": \"geography\", \"confidence\": 0.95, \"answer\": \"Sông Hồng\", \"context\": \"Sông Hồng là con sông dài nhất và quan trọng nhất về kinh tế - xã hội của Việt Nam, với chiều dài khoảng 1.450 km.\", \"sentiment\": \"trung_tinh\"}",
+    "score": 0.0
+  },
+  {
+    "i": 6,
+    "instruction": "2 mũ 10 bằng bao nhiêu?",
+    "keywords": [
+      "1024"
+    ],
+    "prediction": "{\"intent\": \"math\", \"result\": 1024, \"explanation\": \"2 mũ 10 có nghĩa là nhân số 2 với chính nó 10 lần: 2 × 2 × 2 × 2 × 2 × 2 × 2 × 2 × 2 × 2. Kết quả của phép tính này là 1024.\"}",
+    "score": 1.0
+  },
+  {
+    "i": 7,
+    "instruction": "Nêu một lợi ích của việc tập thể dục.",
+    "keywords": [
+      "sức khỏe"
+    ],
+    "prediction": "{\"intent\": \"health\", \"response\": \"Một lợi ích nổi bật của việc tập thể dục là giúp **tăng cường sức khỏe tim mạch**, làm giảm nguy cơ mắc các bệnh như cao huyết áp, tiểu đường và béo phì, đồng thời cải thiện chất lượng giấc ngủ.\"}",
+    "score": 1.0
+  },
+  {
+    "i": 8,
+    "instruction": "Ai là tác giả của Truyện Kiều?",
+    "keywords": [
+      "Nguyễn Du"
+    ],
+    "prediction": "{\"intent\": \"truyen\", \"answer\": \"Nguyễn Du\", \"confidence\": 0.99, \"source\": \"Wiki\", \"sentiment\": \"tich_cuc\"}",
+    "score": 1.0
+  },
+  {
+    "i": 9,
+    "instruction": "Một năm có bao nhiêu tháng?",
+    "keywords": [
+      "12"
+    ],
+    "prediction": "{\"intent\": \"hoi_thong_tin\", \"urgency\": \"thap\", \"product\": null, \"sentiment\": \"trung_tinh\"}",
+    "score": 0.0
+  },
+  {
+    "i": 10,
+    "instruction": "Nước sôi ở bao nhiêu độ C tại áp suất thường?",
+    "keywords": [
+      "100"
+    ],
+    "prediction": "{\"intent\": \"fact\", \"answer\": \"100\", \"confidence\": 0.99}",
+    "score": 1.0
+  },
+  {
+    "i": 11,
+    "instruction": "Kể tên một loại trái cây nhiệt đới.",
+    "keywords": [
+      "xoài",
+      "chuối",
+      "dứa",
+      "sầu riêng",
+      "mít"
+    ],
+    "prediction": "{\"intent\": \"trai_cuoi\", \"confidence\": 0.95, \"response\": \"Dâu tây\"}",
+    "score": 0.0
+  },
+  {
+    "i": 12,
+    "instruction": "Hãy tóm tắt ý nghĩa của câu 'Có công mài sắt có ngày nên kim'.",
+    "keywords": [
+      "kiên trì",
+      "cố gắng",
+      "bền"
+    ],
+    "prediction": "{\"intent\": \"tinh thần\", \"lesson\": \"Sự kiên trì\", \"example\": \"Học tập\", \"summary\": \"Câu tục ngữ này khuyên chúng ta phải có tinh thần kiên trì, không nản lòng trước khó khăn thì sẽ thành công.\"}",
+    "score": 0.3333333333333333
+  },
+  {
+    "i": 13,
+    "instruction": "Thành phố Hồ Chí Minh trước đây có tên là gì?",
+    "keywords": [
+      "Sài Gòn"
+    ],
+    "prediction": "{\"intent\": \"trivia\", \"confidence\": 0.95, \"answer\": \"Thành phố Hồ Chí Minh trước đây có tên là **Saigon** (tên tiếng Pháp là *Sài Gòn*). Đây là tên gọi được sử dụng phổ biến trong suốt thời kỳ thuộc địa và cả sau khi Việt Nam giành độc lập cho đến năm 1976. Vào ngày 2 tháng 7 năm 1976, theo quyết định của",
+    "score": 1.0
+  },
+  {
+    "i": 14,
+    "instruction": "Giải thích ngắn gọn quang hợp là gì.",
+    "keywords": [
+      "ánh sáng",
+      "cây"
+    ],
+    "prediction": "{\"intent\": \"definition\", \"content\": \"Quang hợp là quá trình thực vật, tảo và một số vi khuẩn sử dụng năng lượng ánh sáng mặt trời để chuyển hóa khí cacbon dioxide (CO2) và nước (H2O) thành chất hữu cơ (như đường glucose) và giải phóng khí oxy (O2). Đây là quá trình sống còn, cung cấp nguồn năng lượng chính cho hầu hết các sinh vật trên Trái Đất.\", \"urgency",
+    "score": 0.5
+  }
+]
